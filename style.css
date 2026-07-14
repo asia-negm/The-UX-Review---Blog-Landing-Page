@@ -82,6 +82,12 @@ a , span {
 a{
     text-decoration: none;
 }
+.a-hover:hover{
+    color: var(--color-orange-500);
+}
+ul li {
+    list-style: none;
+}
 img{
     width: 100%;
 }
@@ -107,6 +113,12 @@ img{
 .color-red{
     color: var(--color-red-600);
 }
+.color-gray{
+    color: var(--color-gray-300);
+}
+.color-orange{
+    color: var(--color-orange-500);
+}
 /* ////////////////////////////////// */
 .bg-black{
     background-color: #000;
@@ -116,6 +128,9 @@ img{
 }
 .bg-red{
     background-color:var(--color-red-500);
+}
+.bg-yellow{
+    background-color:var(--color-yellow-400);
 }
 /* ///////// */
 .fs-h1{
@@ -148,6 +163,9 @@ line-height: var(--text-xs--line-height);
 .items-center{
     align-items: center;
 }
+.justify-between{
+    justify-content: space-between;
+}
 /* ///////////////// */
 .object-cover{
     object-fit:cover;
@@ -163,6 +181,9 @@ line-height: var(--text-xs--line-height);
 }
 .border-4{
     border: 4px solid #000;
+}
+.border-radius{
+    border-radius: 20px;
 }
 /* ////////////////// */
 .postrelative{
@@ -182,6 +203,12 @@ line-height: var(--text-xs--line-height);
 .w-100{
     width: 100%;
 }
+.padd-y{
+    padding: 0 5px ;
+ }
+.padd-10{
+    padding:  10px ;
+ }
 /* //////////////////////////// */
 .rotate-12{
     rotate: 12deg;
@@ -225,11 +252,11 @@ line-height: var(--text-xs--line-height);
 .button-hero{
     padding: 10px 0;
 }
-button {
+.hero button {
     padding: 15px 30px;
         transition: transform 0.3s ease-out;
 }
-button:hover{
+.hero button:hover{
     transform: translate(3px, 3px);
 }
 .featured{
@@ -237,4 +264,20 @@ button:hover{
     top: -1rem;
     padding: .8rem;
 }
- 
+ /* /////////////////////////////// */
+ nav{
+    margin: 20px;
+ }
+ .nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 80rem;
+    margin: auto;
+ }
+ .nav-title{
+    font-size: 30px;
+ }
