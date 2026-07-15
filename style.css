@@ -442,6 +442,15 @@ margin-bottom: .7rem;
 .card-1 h2:hover{
     color: red;
 }
+.color-red-hover:hover{
+  color: var(--color-red-600);
+}
+.color-blue-hover:hover{
+  color: var(--color-blue-600);
+}
+.color-purple-hover:hover{
+  color: var(--color-purple-600);
+}
 .hover-bg-yellow:hover{
     transform: translate( -2px , -2px);
     background-color: var(--color-yellow-300);
@@ -468,3 +477,4 @@ margin-bottom: .7rem;
 .latest button:hover{
     transform: translate(3px, 3px);
 }
+/* //////////////////////////////// */
