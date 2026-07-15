@@ -439,3 +439,23 @@ margin-bottom: .7rem;
 .card-1 h2:hover{
     color: red;
 }
+.hover-bg-yellow:hover{
+    transform: translate( -2px , -2px);
+    background-color: var(--color-yellow-300);
+}
+.hover-bg-green:hover{
+    transform: translate( -2px , -2px);
+    background-color: var(--color-green-300);
+}
+.hover-bg-pink:hover{
+    transform: translate( -2px , -2px);
+    background-color: var(--color-pink-300);
+}
+.hover-bg-blue:hover{
+    transform: translate( -2px , -2px);
+    background-color: var(--color-blue-300);
+}
+.hover-bg-purple:hover{
+    transform: translate( -2px , -2px);
+    background-color: var(--color-purple-300);
+}
