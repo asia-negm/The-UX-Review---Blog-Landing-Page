@@ -325,6 +325,9 @@ margin-bottom: .7rem;
  .ml-2{
     margin-left: 2rem;
  }
+ .margin-auto{
+    margin:auto;
+ }
 /* //////////////////////////// */
 .rotate-12{
     rotate: 12deg;
@@ -458,4 +461,10 @@ margin-bottom: .7rem;
 .hover-bg-purple:hover{
     transform: translate( -2px , -2px);
     background-color: var(--color-purple-300);
+}
+.latest button {
+        transition: transform 0.3s ease-out;
+}
+.latest button:hover{
+    transform: translate(3px, 3px);
 }
