@@ -138,6 +138,9 @@ img{
 .bg-red{
     background-color:var(--color-red-500);
 }
+.bg-red-50{
+    background-color:var(--color-red-50);
+}
 .bg-yellow{
     background-color:var(--color-yellow-400);
 }
